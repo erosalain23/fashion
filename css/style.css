@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Courgette|Dancing+Script|Grand+Hotel|Great+Vibes|Josefin+Slab|Lobster|Lobster+Two|Pacifico|Rancho|Sacramento|Satisfy');
+/*css for mobile*/
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: indianred;
+}
+*{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+nav.navbar-fixed{
+    background-color: indianred;
+}
+nav a.brand-logo{
+    font-family: 'Grand Hotel';
+}
+nav a.brand-logo b{
+    font-family: 'Lobster';
+    color: black;
+    font-weight: 200;
+    opacity: 0.8
+}
+div.slider>ul>li{
+    background-color: indianred;
+}
+h5#handMade{
+    font-family: 'Pacifico';
+    font-size: 2.6em;
+    opacity: 0.5;
+}
+h5#handMade>b{
+    color: black;
+}
+a.header-button{
+    color: white;
+    border: 2px white solid;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+}
+a.header-button:hover{
+    background-color: white;
+    color: indianred;
+}
+h4.services,h4.about{
+    color: indianred;
+    font-family: 'Acme';
+}
+img.responsive-img{
+    border: 2px #01579b solid;
+}
+input.send{
+    background-color: #263238;
+    border: 2px white solid;
+    border-radius: 35px;
+    padding: 15px 40px 15px 40px;
+}
+input.send:hover{
+    background-color: white;
+    color: #263238;
+}
+footer.page-footer{
+    margin-top: -40px;
+}
+nav.navbar-fixed{
+    position: fixed;
+}
+li>img{
+    margin-top: 30px;
+}
+div.slider{
+    margin-top: 50px;
+}
+ul.side-nav{
+    z-index: 2000;
+    background-color: indianred;
+}
+ul.side-nav>li>a{
+    color: white;
+}
+ul.side-nav>li>a:hover{
+    background-color: white;
+    color: indianred;
+}
+/*end of css for mobile*/
+
+
+
+
+
+/*the icon animation*/
+.icon-scroll,.icon-scroll:before{
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+}
+.icon-scroll{
+  width: 40px;
+  height: 70px;
+  top: 50%;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+.icon-scroll:before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+  
+
+@keyframes scroll{
+    0%{
+        opacity: 1 ;
+    }
+   
+    100%{
+        opacity: 0;
+    transform: translateY(46px);
+    }
+    
+}
+
+/*End ot the icon animation*/
+/*media queries for large screens*/
+

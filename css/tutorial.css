@@ -1,0 +1,10 @@
+div#tuto-embedded{
+    margin-top: 60px;
+}
+div.video-container{
+    margin: 2px;
+}
+div.card-panel{
+    background-color: indianred;
+    padding-left: 5px;
+}

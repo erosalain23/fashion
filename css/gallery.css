@@ -1,0 +1,21 @@
+nav.navbar-fixed{
+    position: fixed;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+div#gallery-images{
+    margin-top: 60px;
+}
+footer.page-footer{
+    margin-top: -30px;
+}
+div.card-image{
+    max-height: 400px;
+    height: 100%;
+}
+.btn-floating.halfway-fab.waves-effect.waves-light{
+    background-color: indianred;
+}
+div.card{
+    min-height:450px;
+}
